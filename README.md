@@ -47,7 +47,3 @@ This project follows the **Apache 2.0 License**. See [`LICENSE`](LICENSE) for de
 ## Notes  
 - This model works best on well-lit images with clear hair visibility.  
 - For real-time hair segmentation, consider using MediaPipe in a webcam pipeline.  
-
----
-
-This version maintains a clean and structured format while keeping all necessary information. Let me know if you need any modifications.
