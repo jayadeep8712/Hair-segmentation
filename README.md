@@ -20,21 +20,38 @@ This segmentation model classifies each pixel in an image into two categories:
 - Pre-processing for hairstyle recommendations  
 
 ## Installation & Usage  
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/your-username/hair-segmentation.git  
-   cd hair-segmentation  
-   ```
-2. **Install dependencies**  
-   ```bash
-   pip install mediapipe opencv-python numpy  
-   ```
-3. **Run the hair segmentation script**  
-   ```python
-   import cv2
-   import mediapipe as mp
-   ```
-   *For a full implementation, check the script in* `hair_segmentation.py`  
+
+### 1. Set up a virtual environment  
+It is recommended to use a **virtual environment** to avoid dependency conflicts.  
+
+#### On Windows (Command Prompt or PowerShell):  
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+#### On macOS/Linux (Terminal):  
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Clone this repository  
+```bash
+git clone https://github.com/jayadeep8712/Hair-segmentation.git  
+cd hair-segmentation  
+```
+
+### 3. Install dependencies  
+```bash
+pip install mediapipe opencv-python numpy  
+```
+
+### 4. Run the hair segmentation script  
+```python
+import cv2
+import mediapipe as mp
+```
+*For a full implementation, check the script in* `hair_segmentation.py`  
 
 ## Example Output  
 | Input Image | Hair Segmentation Mask |  
@@ -47,3 +64,4 @@ This project follows the **Apache 2.0 License**. See [`LICENSE`](LICENSE) for de
 ## Notes  
 - This model works best on well-lit images with clear hair visibility.  
 - For real-time hair segmentation, consider using MediaPipe in a webcam pipeline.  
+ 
